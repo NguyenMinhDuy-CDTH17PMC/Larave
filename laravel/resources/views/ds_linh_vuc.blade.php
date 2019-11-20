@@ -66,7 +66,7 @@
                     <tr>
                         <td>{{$Linhvuc->id}}</td>
                         <td>{{$Linhvuc->ten_linh_vuc}}</td>
-                        <td> <a href="{{route('linhvuc.capnhat',$Linhvuc->id)}} "><button  type="button" class="btn btn-danger waves-effect waves-light"><i class="fas fa-pencil-alt"></i></button></a>
+                        <td> <a href="{{route('linhvuc.capnhat',$Linhvuc->id)}} "><button type="button" class="btn btn-purple waves-effect waves-light"><i class="mdi mdi-settings"></i></button></a>
                         <a href="{{route('linhvuc.xoa',$Linhvuc->id)}} "><button type="button" class="btn btn-danger waves-effect waves-light"><i class=" fas fa-trash-alt"></i></button></a>
                         </td>
                     </tr>
