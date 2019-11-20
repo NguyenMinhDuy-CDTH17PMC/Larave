@@ -50,6 +50,6 @@ class QuanTriVienController extends Controller
     public function dangXuat()
     {
     	Auth::logout();
-    	return redirect()->route('dang-nhap');
+    	return view('dang-xuat');
     }
 }
