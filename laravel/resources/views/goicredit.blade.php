@@ -70,7 +70,7 @@
                         <td>{{$goicredit->ten_goi}}</td>
                         <td>{{$goicredit->credit}}</td>
                         <td>{{$goicredit->so_tien}}</td>
-                        <td> <a href="{{route('goicredit.capnhat',$goicredit->id)}} "><button  type="button" class="btn btn-danger waves-effect waves-light"><i class="fas fa-pencil-alt"></i></button></a>
+                        <td> <a href="{{route('goicredit.capnhat',$goicredit->id)}} "><button type="button" class="btn btn-purple waves-effect waves-light"><i class="mdi mdi-settings"></i></button></a>
                         <a href="{{route('goicredit.xoa',$goicredit->id)}} "><button type="button" class="btn btn-danger waves-effect waves-light"><i class=" fas fa-trash-alt"></i></button></a>
                         </td>
                     </tr>
