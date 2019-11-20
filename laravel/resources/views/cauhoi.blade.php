@@ -77,7 +77,7 @@
                         <td>{{$Cauhoi->phuong_an_d}}</td>
                         <td>{{$Cauhoi->dap_an}}</td>                       
                         <td>
-                            <a href="{{route('cauhoi.capnhat',$Cauhoi->id)}}"><button type="button" class="btn btn-danger waves-effect waves-light"><i class="fas fa-pencil-alt"></i></button></a>
+                            <a href="{{route('cauhoi.capnhat',$Cauhoi->id)}}"><button type="button" class="btn btn-purple waves-effect waves-light"><i class="mdi mdi-settings"></i></button></a>
                             <a href="{{route('cauhoi.xoa',$Cauhoi->id)}}"><button type="button" class="btn btn-danger waves-effect waves-light"><i class=" fas fa-trash-alt"></i></button></a>
                         </td>
                     </tr>
