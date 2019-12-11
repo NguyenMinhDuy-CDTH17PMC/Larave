@@ -350,146 +350,19 @@
             </li>
 
             <li class="has-submenu">
-                <a href="#"> <i class="la la-briefcase"></i>Elements <div class="arrow-down"></div></a>
-                <ul class="submenu megamenu">
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="ui-buttons.html">Buttons</a>
-                            </li>
-                            <li>
-                                <a href="ui-cards.html">Cards</a>
-                            </li>
-                            <li>
-                                <a href="ui-tabs-accordions.html">Tabs & Accordions</a>
-                            </li>
-                            <li>
-                                <a href="ui-modals.html">Modals</a>
-                            </li>
-                            <li>
-                                <a href="ui-progress.html">Progress</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="ui-notifications.html">Notifications</a>
-                            </li>
-                            <li>
-                                <a href="ui-general.html">General UI</a>
-                            </li>
-                            <li>
-                                <a href="ui-typography.html">Typography</a>
-                            </li>
-                            <li>
-                                <a href="ui-grid.html">Grid</a>
-                            </li>
-                        </ul>
-                    </li>
-        
-                </ul>
+                <a href="{{route('nguoichoi.danhsach')}}"> <i class="la la-briefcase"></i>Người chơi </a>
             </li>
 
              <li class="has-submenu">
-                <a href="{{route('goicredit.danhsach')}}">
-                    <i class="la la-diamond"></i>Gói credit <div class="arrow-down"></div></a>
+                <a href="{{route('goicredit.danhsach')}}"> <i class="la la-diamond"></i>Gói credit </a>
             </li>
 
             <li class="has-submenu">
-                <a href="#"> <i class="la la-flask"></i>Admin UI <div class="arrow-down"></div></a>
-                <ul class="submenu">
-                    <li>
-                        <a href="admin-widgets.html">Widgets</a>
-                    </li>
-                    <li>
-                        <a href="admin-sweet-alert.html">Sweet Alert</a>
-                    </li>
-                    <li>
-                        <a href="admin-nestable.html">Nestable List</a>
-                    </li>
-                    <li>
-                        <a href="admin-range-slider.html">Range Slider</a>
-                    </li>
-                    <li>
-                        <a href="admin-tour.html">Tour Page</a>
-                    </li>
-                    <li>
-                        <a href="admin-lightbox.html">Lightbox</a>
-                    </li>
-                    <li>
-                        <a href="admin-treeview.html">Treeview</a>
-                    </li>
-                </ul>
+                <a href="#"> <i class="la la-flask"></i>Quản trị viên </a>
             </li>
 
             <li class="has-submenu">
-                <a href="#"> <i class="la la-file-text-o"></i>Pages <div class="arrow-down"></div></a>
-                <ul class="submenu megamenu">
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="pages-starter.html">Starter</a>
-                            </li>
-                            <li>
-                                <a href="pages-login.html">Log In</a>
-                            </li>
-                            <li>
-                                <a href="pages-register.html">Register</a>
-                            </li>
-                            <li>
-                                <a href="pages-recoverpw.html">Recover Password</a>
-                            </li>
-                            <li>
-                                <a href="pages-lock-screen.html">Lock Screen</a>
-                            </li>
-                            <li>
-                                <a href="pages-logout.html">Logout</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="pages-confirm-mail.html">Confirm Mail</a>
-                            </li>
-                            <li>
-                                <a href="pages-404.html">Error 404</a>
-                            </li>
-                            <li>
-                                <a href="pages-404-alt.html">Error 404-alt</a>
-                            </li>
-                            <li>
-                                <a href="pages-500.html">Error 500</a>
-                            </li>
-                            <li>
-                                <a href="extras-profile.html">Profile</a>
-                            </li>
-                            <li>
-                                <a href="extras-timeline.html">Timeline</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="extras-invoice.html">Invoice</a>
-                            </li>
-                            <li>
-                                <a href="extras-faqs.html">FAQs</a>
-                            </li>
-                            <li>
-                                <a href="extras-pricing.html">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="extras-maintenance.html">Maintenance</a>
-                            </li>
-                            <li>
-                                <a href="extras-coming-soon.html">Coming Soon</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                <a href="#"> <i class="la la-file-text-o"></i>Chi tiết lượt chơi </a> 
             </li>
 
         </ul>
