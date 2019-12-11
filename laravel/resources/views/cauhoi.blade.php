@@ -61,6 +61,7 @@
                         <th>PHƯƠNG ÁN C</th>
                         <th>PHƯƠNG ÁN D</th>
                         <th>ĐÁP ÁN</th>
+                        <th>Update </th>
                     </tr>
                 </thead>
             
