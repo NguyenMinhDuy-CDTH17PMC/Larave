@@ -350,7 +350,7 @@
             </li>
 
             <li class="has-submenu">
-                <a href="{{route('nguoichoi.danhsach')}}"> <i class="la la-briefcase"></i>Người chơi </a>
+                <a href="{{route('nguoichoi.danhsach')}}"> <i class="fe-user"></i>Người chơi </a>
             </li>
 
              <li class="has-submenu">
@@ -364,6 +364,10 @@
             <li class="has-submenu">
                 <a href="#"> <i class="la la-file-text-o"></i>Chi tiết lượt chơi </a> 
             </li>
+            <li class="has-submenu">
+                <a href="#"> <i class="fe-trash-2"></i>Thùng rác hệ thống </a> 
+            </li>
+            
 
         </ul>
         <!-- End navigation menu -->
