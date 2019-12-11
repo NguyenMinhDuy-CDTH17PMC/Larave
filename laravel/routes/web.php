@@ -54,5 +54,16 @@ Route::middleware('auth')->group(function(){
 			Route::get('/xoa/{id}', 'GoiCreditController@destroy')->name('xoa');
 		});
 	});
+
+	Route::prefix('nguoichoi')->group(function(){
+		Route::name('nguoichoi.')->group(function(){
+			Route::get('/', 'NguoiChoiController@index')->name('danhsach');
+			Route::get('/themmoi', 'NguoiChoiController@create')->name('themmoi');
+			Route::post('/themmoi', 'NguoiChoiController@store')->name('xulythemmoi');
+			Route::get('/capnhat/{id}', 'NguoiChoiController@edit')->name('capnhat');
+			Route::post('/capnhat/{id}', 'NguoiChoiController@update')->name('xulycapnhat');
+			Route::get('/xoa/{id}', 'NguoiChoiController@destroy')->name('xoa');
+		});
+	});
 });
 
